@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb+srv://omnistack10:omnistack@cluster0-zpbpu.mongodb.net/test?retryWrites=true&w=majority'
+const URI = 'MONGO_URL'
 
 const dbConnection = async () => {
   await mongoose.connect(URI, {
